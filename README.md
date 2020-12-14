@@ -1,7 +1,7 @@
 # resynthesis
 Monophonic audio segmentation and resynthesis--using a recording of a solo instrument to synthesize new audio (through audio splicing). Final Project for B557 Audio Processing.
 
-The report for this project is in `report.pdf`,
+The report for this project is in `report.pdf`, and the slides are in `presentation.pdf`.
 
 Audio results are available in the `synthesized` folder.
 
