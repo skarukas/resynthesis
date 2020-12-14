@@ -111,12 +111,12 @@ extract_notes = function(file, dur = 30, min_note_dur = 0.1, max_trans_dur = 0.1
     spectrogram(x, N)
 
     # overlay detected sustains
-    #rect(starts/len, 0, ends/len, 1, col=rgb(0, 1, 0, 0.2))
+    rect(starts/len, 0, ends/len, 1, col=rgb(0, 1, 0, 0.2))
     # overlay detected transitions
-    #rect(t_starts/len, 0, t_ends/len, 1, col=rgb(1, 1, 0, 0.2))
+    rect(t_starts/len, 0, t_ends/len, 1, col=rgb(1, 1, 0, 0.2))
 
     # overlay frequency = cyan
-    unit_display(f0, max_y=SR/8, col="red")
+    unit_display(f0, max_y=SR/2, col="red")
 
     # overlay amplitude = red
     #unit_display(amp, max_y=1, col="red")
