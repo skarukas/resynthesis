@@ -3,7 +3,7 @@ Monophonic audio segmentation and resynthesis--using a recording of a solo instr
 
 The report for this project is in `report.pdf`, and the slides are in `presentation.pdf`.
 
-Audio results are available in the `synthesized` folder.
+Audio results are available in the `synthesized` folder, and they're streamable from this [Google Drive folder](https://drive.google.com/drive/folders/1qR1PYDMy73v65xrDqnYAFqGl70prtf1B?usp=sharing) as well.
 
 All code is located in the `R` folder. A demo for how to use the project is in `R/demo.R`. Here is the general idea:
 
